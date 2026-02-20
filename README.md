@@ -55,7 +55,7 @@ Your brain is a network of regions that constantly talk to each other. Some regi
 > [!IMPORTANT]
 > The largest N2 > Wake cluster (16,752 mm³) centers on dorsomedial prefrontal cortex — a key DMN hub. This is consistent with reduced self-referential thought and executive control during sleep.
 
-![Wake > N2](./results/figures/glm_wake_gt_n2.png)
+![Wake > N2](./results/figures/glm_Wake_gt_N2_glass_brain.png.png)
 
 ### 1.2 Wake > N1 — Transition Differences
 
@@ -77,7 +77,7 @@ Your brain is a network of regions that constantly talk to each other. Some regi
 > [!NOTE]
 > The massive 444 cm³ N1 > Wake cluster spans bilateral posterior cortex, suggesting widespread cortical activation increases during drowsiness — possibly reflecting compensatory arousal mechanisms.
 
-![Wake > N1](./results/figures/glm_wake_gt_n1.png)
+![Wake > N1](./results/figures/glm_Wake_gt_N1_glass_brain.png)
 
 ### 1.3 N1 > N2 — Drowsy vs Asleep
 
@@ -97,7 +97,7 @@ Your brain is a network of regions that constantly talk to each other. Some regi
 | 43 | −34.5, 3.5, 35.5 | −3.81 | 6,288 | L precentral / premotor |
 | 48 | 3.5, −72.5, −30.5 | −3.61 | 6,152 | Cerebellum vermis |
 
-![N1 > N2](./results/figures/glm_n1_gt_n2.png)
+![N1 > N2](./results/figures/glm_N1_gt_N2_glass_brain.png)
 
 ### 1.4 Linear Wake → N2 Trend
 
@@ -110,7 +110,7 @@ Your brain is a network of regions that constantly talk to each other. Some regi
 | 37 | −54.5, 5.5, −30.5 | −3.90 | 11,376 | L temporal pole |
 | 43 | −36.5, −56.5, 25.5 | −3.47 | 6,992 | L angular gyrus |
 
-![Linear trend](./results/figures/glm_linear.png)
+![Linear trend](./results/figures/glm_Linear_Wake_to_N2_glass_brain.png)
 
 ---
 
@@ -137,11 +137,11 @@ Your brain is a network of regions that constantly talk to each other. Some regi
 > [!IMPORTANT]
 > **Two-phase model:** GE flat → jump, Modularity dip → recovery. N1 is a *destabilized transition* where network boundaries blur (modularity drops). N2 restores organization in a new, more integrated configuration (both GE and modularity increase).
 
-````carousel
+
 ![dFC graph metrics](./results/figures/dfc_graph_metrics.png)
-<!-- slide -->
+
 ![dFC FC matrices](./results/figures/dfc_fc_matrices.png)
-````
+
 
 ---
 
