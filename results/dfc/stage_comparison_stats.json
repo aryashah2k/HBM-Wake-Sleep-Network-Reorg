@@ -1,0 +1,62 @@
+{
+  "global_efficiency": {
+    "lmm_summary": "                        Mixed Linear Model Regression Results\n======================================================================================\nModel:                     MixedLM        Dependent Variable:        global_efficiency\nNo. Observations:          4652           Method:                    REML             \nNo. Groups:                32             Scale:                     0.0009           \nMin. group size:           17             Log-Likelihood:            9567.4092        \nMax. group size:           229            Converged:                 Yes              \nMean group size:           145.4                                                      \n--------------------------------------------------------------------------------------\n                                            Coef. Std.Err.    z    P>|z| [0.025 0.975]\n--------------------------------------------------------------------------------------\nIntercept                                   0.498    0.002 219.791 0.000  0.494  0.503\nC(stage, Treatment(reference='Wake'))[T.N1] 0.000    0.001   0.241 0.809 -0.002  0.003\nC(stage, Treatment(reference='Wake'))[T.N2] 0.009    0.001   6.225 0.000  0.006  0.012\nGroup Var                                   0.000    0.001                            \n======================================================================================\n",
+    "coefficients": {
+      "Intercept": 0.498288121182879,
+      "C(stage, Treatment(reference='Wake'))[T.N1]": 0.00029820592815753917,
+      "C(stage, Treatment(reference='Wake'))[T.N2]": 0.009190296023965996,
+      "Group Var": 0.15668099288021342
+    },
+    "pvalues": {
+      "Intercept": 0.0,
+      "C(stage, Treatment(reference='Wake'))[T.N1]": 0.8094885143164987,
+      "C(stage, Treatment(reference='Wake'))[T.N2]": 4.82005405805161e-10,
+      "Group Var": 0.0002050470064072138
+    },
+    "tukey_summary": "Multiple Comparison of Means - Tukey HSD, FWER=0.05\n===================================================\ngroup1 group2 meandiff p-adj   lower  upper  reject\n---------------------------------------------------\n    N1     N2   0.0047 0.0026  0.0014  0.008   True\n    N1   Wake   0.0024 0.0687 -0.0001  0.005  False\n    N2   Wake  -0.0022 0.1939 -0.0052 0.0008  False\n---------------------------------------------------",
+    "effect_sizes": {
+      "Wake_vs_N1": {
+        "cohens_d": 0.07669853810822438,
+        "mean_diff": 0.0024367547107970733
+      },
+      "Wake_vs_N2": {
+        "cohens_d": -0.06821215010010419,
+        "mean_diff": -0.0022249563677297912
+      },
+      "N1_vs_N2": {
+        "cohens_d": -0.13765312169184402,
+        "mean_diff": -0.0046617110785268645
+      }
+    }
+  },
+  "modularity": {
+    "lmm_summary": "                         Mixed Linear Model Regression Results\n=======================================================================================\nModel:                       MixedLM           Dependent Variable:           modularity\nNo. Observations:            4652              Method:                       REML      \nNo. Groups:                  32                Scale:                        0.0025    \nMin. group size:             17                Log-Likelihood:               7279.7330 \nMax. group size:             229               Converged:                    Yes       \nMean group size:             145.4                                                     \n---------------------------------------------------------------------------------------\n                                            Coef.  Std.Err.    z    P>|z| [0.025 0.975]\n---------------------------------------------------------------------------------------\nIntercept                                    0.367    0.003 132.870 0.000  0.361  0.372\nC(stage, Treatment(reference='Wake'))[T.N1] -0.003    0.002  -1.354 0.176 -0.007  0.001\nC(stage, Treatment(reference='Wake'))[T.N2]  0.007    0.002   2.943 0.003  0.002  0.012\nGroup Var                                    0.000    0.001                            \n=======================================================================================\n",
+    "coefficients": {
+      "Intercept": 0.36650943051580304,
+      "C(stage, Treatment(reference='Wake'))[T.N1]": -0.0027268072421613087,
+      "C(stage, Treatment(reference='Wake'))[T.N2]": 0.007071891370296905,
+      "Group Var": 0.07788130277806052
+    },
+    "pvalues": {
+      "Intercept": 0.0,
+      "C(stage, Treatment(reference='Wake'))[T.N1]": 0.17583824263573733,
+      "C(stage, Treatment(reference='Wake'))[T.N2]": 0.003250614195648807,
+      "Group Var": 0.00038499736081201144
+    },
+    "tukey_summary": "Multiple Comparison of Means - Tukey HSD, FWER=0.05\n===================================================\ngroup1 group2 meandiff p-adj   lower  upper  reject\n---------------------------------------------------\n    N1     N2   0.0077 0.0017  0.0024 0.0129   True\n    N1   Wake   0.0083    0.0  0.0042 0.0124   True\n    N2   Wake   0.0007 0.9415 -0.0041 0.0055  False\n---------------------------------------------------",
+    "effect_sizes": {
+      "Wake_vs_N1": {
+        "cohens_d": 0.15984005036751817,
+        "mean_diff": 0.008345048384253428
+      },
+      "Wake_vs_N2": {
+        "cohens_d": 0.013152983844555015,
+        "mean_diff": 0.0006765464975085345
+      },
+      "N1_vs_N2": {
+        "cohens_d": -0.1479467727340435,
+        "mean_diff": -0.007668501886744894
+      }
+    }
+  }
+}

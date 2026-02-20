@@ -1,0 +1,13 @@
+subject,file,window_idx,window_center_tr,stage,global_efficiency,modularity
+sub-01,sub-01_task-rest_run-2_timeseries,0,15,Wake,0.4951761186886814,0.3455973733864847
+sub-01,sub-01_task-rest_run-2_timeseries,3,60,Wake,0.5199455611390285,0.37662758041051364
+sub-01,sub-01_task-rest_run-2_timeseries,4,75,Wake,0.5407453936348409,0.3909106972529479
+sub-01,sub-01_task-rest_run-2_timeseries,5,90,Wake,0.5250410385259632,0.37131029080681605
+sub-01,sub-01_task-rest_run-2_timeseries,6,105,Wake,0.47103015075376886,0.4530993799287205
+sub-01,sub-01_task-rest_run-2_timeseries,7,120,Wake,0.4746994496290979,0.40584977024424407
+sub-01,sub-01_task-rest_run-2_timeseries,8,135,Wake,0.4949229480737018,0.3650120455249306
+sub-01,sub-01_task-rest_run-2_timeseries,9,150,Wake,0.49665996649916244,0.3968465406142521
+sub-01,sub-01_task-rest_run-2_timeseries,10,165,Wake,0.47380234505862645,0.3548310389248224
+sub-01,sub-01_task-rest_run-2_timeseries,11,180,Wake,0.5102395309882747,0.37507879511081366
+sub-01,sub-01_task-rest_run-2_timeseries,14,225,Wake,0.5069798994974875,0.36029565480770886
+sub-01,sub-01_task-rest_run-2_timeseries,17,270,N2,0.5134681742043551,0.3220386909264211

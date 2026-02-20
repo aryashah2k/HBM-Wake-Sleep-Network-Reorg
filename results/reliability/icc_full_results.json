@@ -1,0 +1,35 @@
+{
+  "task-rest_global_efficiency": {
+    "icc_type": "ICC3",
+    "icc_value": 0.38349979767208764,
+    "ci95_lower": 0.04,
+    "ci95_upper": 0.65,
+    "p_value": 0.015128818995333164,
+    "interpretation": "Poor"
+  },
+  "task-rest_modularity": {
+    "icc_type": "ICC3",
+    "icc_value": 0.5239130592937628,
+    "ci95_lower": 0.21,
+    "ci95_upper": 0.74,
+    "p_value": 0.0010434973014437554,
+    "interpretation": "Fair"
+  },
+  "task-rest_mean_fc": {
+    "icc_type": "ICC3",
+    "icc_value": 0.40507275111597824,
+    "ci95_lower": 0.06,
+    "ci95_upper": 0.66,
+    "p_value": 0.010728455775673648,
+    "interpretation": "Fair"
+  },
+  "task-sleep_global_efficiency": {
+    "error": "Either missing values are present in data or data are unbalanced. Please remove them manually or use nan_policy='omit'."
+  },
+  "task-sleep_modularity": {
+    "error": "Either missing values are present in data or data are unbalanced. Please remove them manually or use nan_policy='omit'."
+  },
+  "task-sleep_mean_fc": {
+    "error": "Either missing values are present in data or data are unbalanced. Please remove them manually or use nan_policy='omit'."
+  }
+}

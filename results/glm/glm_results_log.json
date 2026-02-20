@@ -1,0 +1,310 @@
+{
+  "subjects": {
+    "sub-01": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-02": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-03": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-04": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-05": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-06": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-07": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-09": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-10": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-11": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-12": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-13": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N1",
+        "N1_gt_N2"
+      ]
+    },
+    "sub-14": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-15": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-16": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-17": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-18": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-19": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-20": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N1"
+      ]
+    },
+    "sub-21": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N1"
+      ]
+    },
+    "sub-22": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-23": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-24": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N1",
+        "N1_gt_N2"
+      ]
+    },
+    "sub-25": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N1",
+        "N1_gt_N2"
+      ]
+    },
+    "sub-26": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N1"
+      ]
+    },
+    "sub-27": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-28": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-29": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-30": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-31": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-32": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    },
+    "sub-33": {
+      "status": "completed",
+      "contrasts": [
+        "Wake_gt_N2",
+        "N2_gt_Wake",
+        "Wake_gt_N1",
+        "N1_gt_N2",
+        "Linear_Wake_to_N2"
+      ]
+    }
+  },
+  "contrasts": [
+    "Wake_gt_N2",
+    "N2_gt_Wake",
+    "Wake_gt_N1",
+    "N1_gt_N2",
+    "Linear_Wake_to_N2"
+  ]
+}

@@ -1,0 +1,13 @@
+subject,file,window_idx,window_center_tr,stage,global_efficiency,modularity
+sub-18,sub-18_task-sleep_run-3_timeseries,1,30,Wake,0.5109522613065326,0.36504323417416734
+sub-18,sub-18_task-sleep_run-3_timeseries,2,45,N1,0.5037638190954774,0.3548120807854929
+sub-18,sub-18_task-sleep_run-3_timeseries,3,60,N1,0.4963986599664991,0.3532149942602188
+sub-18,sub-18_task-sleep_run-3_timeseries,4,75,N1,0.502784757118928,0.3618855028631903
+sub-18,sub-18_task-sleep_run-3_timeseries,5,90,N1,0.5183710217755443,0.33486678482835747
+sub-18,sub-18_task-sleep_run-3_timeseries,11,180,N1,0.5285050251256281,0.3917497361700683
+sub-18,sub-18_task-sleep_run-3_timeseries,13,210,Wake,0.5245686767169179,0.39171423508463915
+sub-18,sub-18_task-sleep_run-3_timeseries,14,225,Wake,0.4965418760469012,0.45193679003566906
+sub-18,sub-18_task-sleep_run-3_timeseries,15,240,Wake,0.5019212730318258,0.4391736593651055
+sub-18,sub-18_task-sleep_run-3_timeseries,21,330,N1,0.473940775305097,0.3504217533023323
+sub-18,sub-18_task-sleep_run-3_timeseries,23,360,Wake,0.45394556113902845,0.3757739267168151
+sub-18,sub-18_task-sleep_run-3_timeseries,25,390,N1,0.4978200526441732,0.39709665295058966

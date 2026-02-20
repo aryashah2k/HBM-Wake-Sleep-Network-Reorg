@@ -1,0 +1,6246 @@
+{
+  "subjects": [
+    {
+      "subject": "sub-01",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.2039284926013986,
+          "max_fd": 0.527488045,
+          "n_censored": 34,
+          "censored_fraction": 0.11888111888111888,
+          "stage_tr_counts": {
+            "W": 14,
+            "1": 14,
+            "2": 257
+          },
+          "stage_clean_tr_counts": {
+            "W": 14,
+            "1": 14,
+            "2": 223
+          },
+          "insufficient_stages": [
+            "W",
+            "1"
+          ]
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.17210763704860135,
+          "max_fd": 3.3988053819999995,
+          "n_censored": 26,
+          "censored_fraction": 0.09090909090909091,
+          "stage_tr_counts": {
+            "W": 214,
+            "1": 43,
+            "2": 28
+          },
+          "stage_clean_tr_counts": {
+            "W": 198,
+            "1": 36,
+            "2": 25
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1498706958228438,
+          "max_fd": 3.8095488,
+          "n_censored": 28,
+          "censored_fraction": 0.06526806526806526,
+          "stage_tr_counts": {
+            "W": 44,
+            "1": 228,
+            "2": 156
+          },
+          "stage_clean_tr_counts": {
+            "W": 44,
+            "1": 206,
+            "2": 150
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.24777243053636364,
+          "max_fd": 0.525138105,
+          "n_censored": 154,
+          "censored_fraction": 0.358974358974359,
+          "stage_tr_counts": {
+            "W": 170,
+            "1": 258,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 159,
+            "1": 116,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.3004194521571096,
+          "max_fd": 2.9347645,
+          "n_censored": 170,
+          "censored_fraction": 0.3962703962703963,
+          "stage_tr_counts": {
+            "W": 143,
+            "1": 213,
+            "2": 72
+          },
+          "stage_clean_tr_counts": {
+            "W": 117,
+            "1": 97,
+            "2": 44
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 5,
+      "total_valid_trs": {
+        "W": 532,
+        "1": 469,
+        "2": 442
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-02",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.13880482305594405,
+          "max_fd": 2.01155757,
+          "n_censored": 8,
+          "censored_fraction": 0.027972027972027972,
+          "stage_tr_counts": {
+            "W": 114,
+            "1": 100,
+            "2": 71
+          },
+          "stage_clean_tr_counts": {
+            "W": 112,
+            "1": 98,
+            "2": 67
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1563447576468531,
+          "max_fd": 0.91668934,
+          "n_censored": 25,
+          "censored_fraction": 0.08741258741258741,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 261,
+            "1": 0,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 2,
+      "total_valid_trs": {
+        "W": 373,
+        "1": 98,
+        "2": 67
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-03",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.27825920787482517,
+          "max_fd": 1.2817329,
+          "n_censored": 107,
+          "censored_fraction": 0.3741258741258741,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 0,
+            "2": 285
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 0,
+            "2": 178
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.34539659865034966,
+          "max_fd": 5.4215084650000005,
+          "n_censored": 134,
+          "censored_fraction": 0.46853146853146854,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 43,
+            "2": 228
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 28,
+            "2": 121
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2879734732400932,
+          "max_fd": 1.49975585,
+          "n_censored": 165,
+          "censored_fraction": 0.38461538461538464,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 85,
+            "2": 343
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 63,
+            "2": 200
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": false,
+          "exclusion_reasons": [
+            "Excessive motion: 53.6% volumes censored (threshold: 50%)"
+          ],
+          "n_trs": 429,
+          "mean_fd": 0.3902495271864802,
+          "max_fd": 1.6575652849999996,
+          "n_censored": 230,
+          "censored_fraction": 0.5361305361305362,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 57,
+            "2": 371
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 45,
+            "2": 153
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": false,
+          "exclusion_reasons": [
+            "Excessive motion: 53.6% volumes censored (threshold: 50%)"
+          ],
+          "n_trs": 429,
+          "mean_fd": 0.36285401968764563,
+          "max_fd": 1.65327383,
+          "n_censored": 230,
+          "censored_fraction": 0.5361305361305362,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 29,
+            "2": 399
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 16,
+            "2": 183
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2792627525547785,
+          "max_fd": 1.76120452,
+          "n_censored": 147,
+          "censored_fraction": 0.34265734265734266,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 143,
+            "2": 285
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 93,
+            "2": 189
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2453209990191142,
+          "max_fd": 2.178624455,
+          "n_censored": 82,
+          "censored_fraction": 0.19114219114219114,
+          "stage_tr_counts": {
+            "W": 15,
+            "1": 0,
+            "2": 413
+          },
+          "stage_clean_tr_counts": {
+            "W": 8,
+            "1": 0,
+            "2": 339
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.31840265945687635,
+          "max_fd": 2.8635486,
+          "n_censored": 125,
+          "censored_fraction": 0.2913752913752914,
+          "stage_tr_counts": {
+            "W": 15,
+            "1": 242,
+            "2": 171
+          },
+          "stage_clean_tr_counts": {
+            "W": 12,
+            "1": 172,
+            "2": 119
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.33327759222377623,
+          "max_fd": 3.345535849999999,
+          "n_censored": 120,
+          "censored_fraction": 0.27972027972027974,
+          "stage_tr_counts": {
+            "W": 14,
+            "1": 128,
+            "2": 286
+          },
+          "stage_clean_tr_counts": {
+            "W": 13,
+            "1": 74,
+            "2": 221
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-8",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.4260499672433566,
+          "max_fd": 4.6448998,
+          "n_censored": 147,
+          "censored_fraction": 0.34265734265734266,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 172,
+            "2": 256
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 111,
+            "2": 170
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 33,
+        "1": 541,
+        "2": 1537
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-04",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.09281603676664332,
+          "max_fd": 0.646763161,
+          "n_censored": 2,
+          "censored_fraction": 0.006993006993006993,
+          "stage_tr_counts": {
+            "W": 171,
+            "1": 57,
+            "2": 57
+          },
+          "stage_clean_tr_counts": {
+            "W": 169,
+            "1": 57,
+            "2": 57
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.14116329134195799,
+          "max_fd": 0.74574305,
+          "n_censored": 19,
+          "censored_fraction": 0.06643356643356643,
+          "stage_tr_counts": {
+            "W": 213,
+            "1": 72,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 201,
+            "1": 65,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.08821285329622373,
+          "max_fd": 1.06148837,
+          "n_censored": 5,
+          "censored_fraction": 0.011655011655011656,
+          "stage_tr_counts": {
+            "W": 172,
+            "1": 185,
+            "2": 71
+          },
+          "stage_clean_tr_counts": {
+            "W": 170,
+            "1": 182,
+            "2": 71
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.08356051105501161,
+          "max_fd": 0.5587258700000001,
+          "n_censored": 4,
+          "censored_fraction": 0.009324009324009324,
+          "stage_tr_counts": {
+            "W": 185,
+            "1": 101,
+            "2": 142
+          },
+          "stage_clean_tr_counts": {
+            "W": 181,
+            "1": 101,
+            "2": 142
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.08807743743160837,
+          "max_fd": 0.25384088,
+          "n_censored": 0,
+          "censored_fraction": 0.0,
+          "stage_tr_counts": {
+            "W": 28,
+            "1": 85,
+            "2": 301
+          },
+          "stage_clean_tr_counts": {
+            "W": 28,
+            "1": 85,
+            "2": 301
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.09650618722657339,
+          "max_fd": 0.902483885,
+          "n_censored": 9,
+          "censored_fraction": 0.02097902097902098,
+          "stage_tr_counts": {
+            "W": 114,
+            "1": 215,
+            "2": 99
+          },
+          "stage_clean_tr_counts": {
+            "W": 108,
+            "1": 212,
+            "2": 99
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.10634982423953378,
+          "max_fd": 0.683074585,
+          "n_censored": 12,
+          "censored_fraction": 0.027972027972027972,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 129,
+            "2": 14
+          },
+          "stage_clean_tr_counts": {
+            "W": 276,
+            "1": 126,
+            "2": 14
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.22168428318881117,
+          "max_fd": 2.64162775,
+          "n_censored": 69,
+          "censored_fraction": 0.16083916083916083,
+          "stage_tr_counts": {
+            "W": 199,
+            "1": 200,
+            "2": 29
+          },
+          "stage_clean_tr_counts": {
+            "W": 169,
+            "1": 161,
+            "2": 29
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2054431702890442,
+          "max_fd": 3.4170687,
+          "n_censored": 63,
+          "censored_fraction": 0.14685314685314685,
+          "stage_tr_counts": {
+            "W": 100,
+            "1": 328,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 82,
+            "1": 283,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 9,
+      "total_valid_trs": {
+        "W": 1384,
+        "1": 1272,
+        "2": 713
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-05",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.20586672607272727,
+          "max_fd": 0.9851827,
+          "n_censored": 30,
+          "censored_fraction": 0.1048951048951049,
+          "stage_tr_counts": {
+            "W": 271,
+            "1": 14,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 242,
+            "1": 13,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.18190484877256644,
+          "max_fd": 1.0967128650000002,
+          "n_censored": 9,
+          "censored_fraction": 0.03146853146853147,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 276,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.22528542990419578,
+          "max_fd": 3.243085575,
+          "n_censored": 58,
+          "censored_fraction": 0.1351981351981352,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 370,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1862060572354312,
+          "max_fd": 1.7217773,
+          "n_censored": 23,
+          "censored_fraction": 0.053613053613053616,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 405,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.21371953778088576,
+          "max_fd": 2.38562893,
+          "n_censored": 38,
+          "censored_fraction": 0.08857808857808858,
+          "stage_tr_counts": {
+            "W": 256,
+            "1": 116,
+            "2": 56
+          },
+          "stage_clean_tr_counts": {
+            "W": 225,
+            "1": 114,
+            "2": 51
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.23155595954312352,
+          "max_fd": 3.116833825,
+          "n_censored": 47,
+          "censored_fraction": 0.10955710955710955,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 381,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.20274401707846149,
+          "max_fd": 2.9438375,
+          "n_censored": 33,
+          "censored_fraction": 0.07692307692307693,
+          "stage_tr_counts": {
+            "W": 271,
+            "1": 157,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 250,
+            "1": 146,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.21600637618181814,
+          "max_fd": 2.16492875,
+          "n_censored": 51,
+          "censored_fraction": 0.11888111888111888,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 377,
+            "1": 0,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 2526,
+        "1": 273,
+        "2": 51
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-06",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.19109714861538463,
+          "max_fd": 0.41018379,
+          "n_censored": 27,
+          "censored_fraction": 0.0944055944055944,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 258,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.22323682270979017,
+          "max_fd": 2.35316794,
+          "n_censored": 38,
+          "censored_fraction": 0.13286713286713286,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 142,
+            "2": 143
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 127,
+            "2": 120
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.18607758061333332,
+          "max_fd": 3.146548795,
+          "n_censored": 31,
+          "censored_fraction": 0.07226107226107226,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 397,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.21656506021967364,
+          "max_fd": 2.212084,
+          "n_censored": 69,
+          "censored_fraction": 0.16083916083916083,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 359,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.25275681614592077,
+          "max_fd": 4.07208555,
+          "n_censored": 63,
+          "censored_fraction": 0.14685314685314685,
+          "stage_tr_counts": {
+            "W": 313,
+            "1": 101,
+            "2": 14
+          },
+          "stage_clean_tr_counts": {
+            "W": 263,
+            "1": 92,
+            "2": 11
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.44086048301375286,
+          "max_fd": 11.79367835,
+          "n_censored": 118,
+          "censored_fraction": 0.27505827505827507,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 311,
+            "1": 0,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 6,
+      "total_valid_trs": {
+        "W": 1588,
+        "1": 219,
+        "2": 131
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-07",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.3325125877972028,
+          "max_fd": 2.1534525,
+          "n_censored": 113,
+          "censored_fraction": 0.3951048951048951,
+          "stage_tr_counts": {
+            "W": 28,
+            "1": 172,
+            "2": 85
+          },
+          "stage_clean_tr_counts": {
+            "W": 16,
+            "1": 110,
+            "2": 46
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.3130161921821678,
+          "max_fd": 2.75337929,
+          "n_censored": 114,
+          "censored_fraction": 0.3986013986013986,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 171,
+            "2": 114
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 103,
+            "2": 69
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.32758111225757575,
+          "max_fd": 2.0422596,
+          "n_censored": 186,
+          "censored_fraction": 0.43356643356643354,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 428,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 242,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": false,
+          "exclusion_reasons": [
+            "Excessive motion: 63.6% volumes censored (threshold: 50%)"
+          ],
+          "n_trs": 429,
+          "mean_fd": 0.40312185238927734,
+          "max_fd": 1.11397405,
+          "n_censored": 273,
+          "censored_fraction": 0.6363636363636364,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 370,
+            "2": 58
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 133,
+            "2": 23
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": false,
+          "exclusion_reasons": [
+            "Excessive motion: 71.3% volumes censored (threshold: 50%)"
+          ],
+          "n_trs": 429,
+          "mean_fd": 0.4899736869290909,
+          "max_fd": 4.30966215,
+          "n_censored": 306,
+          "censored_fraction": 0.7132867132867133,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 70,
+            "2": 358
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 39,
+            "2": 83
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.3170677209596736,
+          "max_fd": 2.9138393,
+          "n_censored": 196,
+          "censored_fraction": 0.4568764568764569,
+          "stage_tr_counts": {
+            "W": 57,
+            "1": 314,
+            "2": 57
+          },
+          "stage_clean_tr_counts": {
+            "W": 17,
+            "1": 194,
+            "2": 22
+          },
+          "insufficient_stages": [
+            "W",
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": false,
+          "exclusion_reasons": [
+            "Excessive motion: 82.3% volumes censored (threshold: 50%)"
+          ],
+          "n_trs": 429,
+          "mean_fd": 0.5208509031682984,
+          "max_fd": 1.278342135,
+          "n_censored": 353,
+          "censored_fraction": 0.8228438228438228,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 42,
+            "2": 386
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 10,
+            "2": 66
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 4,
+      "total_valid_trs": {
+        "W": 33,
+        "1": 649,
+        "2": 137
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-08",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.12804693630069927,
+          "max_fd": 0.3703362908,
+          "n_censored": 3,
+          "censored_fraction": 0.01048951048951049,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 282,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.11857122577272722,
+          "max_fd": 0.28046149,
+          "n_censored": 0,
+          "censored_fraction": 0.0,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1534204388452214,
+          "max_fd": 0.8291205,
+          "n_censored": 22,
+          "censored_fraction": 0.05128205128205128,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 406,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.16535820576456872,
+          "max_fd": 1.7291276999999998,
+          "n_censored": 38,
+          "censored_fraction": 0.08857808857808858,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 390,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.12437546264335662,
+          "max_fd": 0.6712469,
+          "n_censored": 15,
+          "censored_fraction": 0.03496503496503497,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 413,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.166388498627972,
+          "max_fd": 1.9551861000000004,
+          "n_censored": 34,
+          "censored_fraction": 0.07925407925407925,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 394,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.15022716786713283,
+          "max_fd": 1.21934185,
+          "n_censored": 34,
+          "censored_fraction": 0.07925407925407925,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 395,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.10169455028671326,
+          "max_fd": 0.8032252,
+          "n_censored": 7,
+          "censored_fraction": 0.016317016317016316,
+          "stage_tr_counts": {
+            "W": 400,
+            "1": 28,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 393,
+            "1": 28,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.13306173128831933,
+          "max_fd": 1.013967,
+          "n_censored": 30,
+          "censored_fraction": 0.06993006993006994,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 398,
+            "1": 0,
+            "2": 0
+          }
+        }
+      ],
+      "included": false,
+      "exclusion_reasons": [
+        "Insufficient stage coverage: only ['W'] have enough data"
+      ],
+      "n_included_runs": 9,
+      "total_valid_trs": {
+        "W": 3356,
+        "1": 28,
+        "2": 0
+      },
+      "stages_with_sufficient_data": [
+        "W"
+      ]
+    },
+    {
+      "subject": "sub-09",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.14974304048251746,
+          "max_fd": 4.2044571,
+          "n_censored": 10,
+          "censored_fraction": 0.03496503496503497,
+          "stage_tr_counts": {
+            "W": 43,
+            "1": 143,
+            "2": 99
+          },
+          "stage_clean_tr_counts": {
+            "W": 36,
+            "1": 141,
+            "2": 98
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.6972160304265734,
+          "max_fd": 27.472964,
+          "n_censored": 39,
+          "censored_fraction": 0.13636363636363635,
+          "stage_tr_counts": {
+            "W": 171,
+            "1": 114,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 146,
+            "1": 100,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.8249311763120745,
+          "max_fd": 24.9624265,
+          "n_censored": 54,
+          "censored_fraction": 0.1258741258741259,
+          "stage_tr_counts": {
+            "W": 372,
+            "1": 56,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 318,
+            "1": 56,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.09928522138694636,
+          "max_fd": 1.0411171,
+          "n_censored": 3,
+          "censored_fraction": 0.006993006993006993,
+          "stage_tr_counts": {
+            "W": 215,
+            "1": 213,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 212,
+            "1": 213,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.10311283618212119,
+          "max_fd": 0.42598385,
+          "n_censored": 2,
+          "censored_fraction": 0.004662004662004662,
+          "stage_tr_counts": {
+            "W": 85,
+            "1": 201,
+            "2": 142
+          },
+          "stage_clean_tr_counts": {
+            "W": 85,
+            "1": 201,
+            "2": 140
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.11545024234965032,
+          "max_fd": 2.12618505,
+          "n_censored": 2,
+          "censored_fraction": 0.004662004662004662,
+          "stage_tr_counts": {
+            "W": 71,
+            "1": 72,
+            "2": 285
+          },
+          "stage_clean_tr_counts": {
+            "W": 69,
+            "1": 72,
+            "2": 285
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.10983239972494169,
+          "max_fd": 0.4413577,
+          "n_censored": 1,
+          "censored_fraction": 0.002331002331002331,
+          "stage_tr_counts": {
+            "W": 56,
+            "1": 143,
+            "2": 229
+          },
+          "stage_clean_tr_counts": {
+            "W": 56,
+            "1": 142,
+            "2": 229
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.18606052424242422,
+          "max_fd": 6.2018839,
+          "n_censored": 14,
+          "censored_fraction": 0.03263403263403263,
+          "stage_tr_counts": {
+            "W": 141,
+            "1": 230,
+            "2": 57
+          },
+          "stage_clean_tr_counts": {
+            "W": 128,
+            "1": 229,
+            "2": 57
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 1050,
+        "1": 1154,
+        "2": 809
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-10",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1867464127818182,
+          "max_fd": 0.56907801,
+          "n_censored": 35,
+          "censored_fraction": 0.12237762237762238,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 250,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1922243227237762,
+          "max_fd": 0.93341534,
+          "n_censored": 31,
+          "censored_fraction": 0.10839160839160839,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 255,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.20243522891016313,
+          "max_fd": 1.61705759,
+          "n_censored": 50,
+          "censored_fraction": 0.11655011655011654,
+          "stage_tr_counts": {
+            "W": 315,
+            "1": 113,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 276,
+            "1": 102,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2001613164137529,
+          "max_fd": 0.66425254,
+          "n_censored": 50,
+          "censored_fraction": 0.11655011655011654,
+          "stage_tr_counts": {
+            "W": 99,
+            "1": 287,
+            "2": 42
+          },
+          "stage_clean_tr_counts": {
+            "W": 89,
+            "1": 250,
+            "2": 39
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.18617264381188806,
+          "max_fd": 1.17515165,
+          "n_censored": 26,
+          "censored_fraction": 0.06060606060606061,
+          "stage_tr_counts": {
+            "W": 43,
+            "1": 86,
+            "2": 299
+          },
+          "stage_clean_tr_counts": {
+            "W": 33,
+            "1": 78,
+            "2": 291
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2040500046535198,
+          "max_fd": 1.4755618,
+          "n_censored": 48,
+          "censored_fraction": 0.11188811188811189,
+          "stage_tr_counts": {
+            "W": 14,
+            "1": 86,
+            "2": 328
+          },
+          "stage_clean_tr_counts": {
+            "W": 10,
+            "1": 72,
+            "2": 298
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2067309282937063,
+          "max_fd": 1.8396175,
+          "n_censored": 49,
+          "censored_fraction": 0.11421911421911422,
+          "stage_tr_counts": {
+            "W": 399,
+            "1": 29,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 350,
+            "1": 29,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.3040106102377622,
+          "max_fd": 3.27567105,
+          "n_censored": 99,
+          "censored_fraction": 0.23076923076923078,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 329,
+            "1": 0,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 1592,
+        "1": 531,
+        "2": 628
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-11",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.0840127076300699,
+          "max_fd": 1.0208576,
+          "n_censored": 3,
+          "censored_fraction": 0.01048951048951049,
+          "stage_tr_counts": {
+            "W": 271,
+            "1": 14,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 268,
+            "1": 14,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.09139545943741256,
+          "max_fd": 0.22675838,
+          "n_censored": 0,
+          "censored_fraction": 0.0,
+          "stage_tr_counts": {
+            "W": 71,
+            "1": 186,
+            "2": 28
+          },
+          "stage_clean_tr_counts": {
+            "W": 71,
+            "1": 186,
+            "2": 28
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1082521636386946,
+          "max_fd": 0.95925387,
+          "n_censored": 11,
+          "censored_fraction": 0.02564102564102564,
+          "stage_tr_counts": {
+            "W": 399,
+            "1": 29,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 388,
+            "1": 29,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.16038826576223775,
+          "max_fd": 2.2339595,
+          "n_censored": 43,
+          "censored_fraction": 0.10023310023310024,
+          "stage_tr_counts": {
+            "W": 72,
+            "1": 356,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 57,
+            "1": 328,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.13611193461396268,
+          "max_fd": 2.98869627,
+          "n_censored": 27,
+          "censored_fraction": 0.06293706293706294,
+          "stage_tr_counts": {
+            "W": 28,
+            "1": 400,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 24,
+            "1": 377,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.18674258522610718,
+          "max_fd": 2.17340025,
+          "n_censored": 49,
+          "censored_fraction": 0.11421911421911422,
+          "stage_tr_counts": {
+            "W": 72,
+            "1": 356,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 63,
+            "1": 316,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2047406057599067,
+          "max_fd": 1.6344746000000003,
+          "n_censored": 78,
+          "censored_fraction": 0.18181818181818182,
+          "stage_tr_counts": {
+            "W": 28,
+            "1": 372,
+            "2": 28
+          },
+          "stage_clean_tr_counts": {
+            "W": 21,
+            "1": 305,
+            "2": 24
+          },
+          "insufficient_stages": [
+            "W",
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2752512423100233,
+          "max_fd": 2.66903635,
+          "n_censored": 100,
+          "censored_fraction": 0.2331002331002331,
+          "stage_tr_counts": {
+            "W": 28,
+            "1": 386,
+            "2": 14
+          },
+          "stage_clean_tr_counts": {
+            "W": 19,
+            "1": 300,
+            "2": 9
+          },
+          "insufficient_stages": [
+            "W",
+            "2"
+          ]
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 911,
+        "1": 1855,
+        "2": 61
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-12",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.12081442812272725,
+          "max_fd": 0.967359675,
+          "n_censored": 8,
+          "censored_fraction": 0.027972027972027972,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 277,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.11384709246153842,
+          "max_fd": 0.9814904999999996,
+          "n_censored": 7,
+          "censored_fraction": 0.024475524475524476,
+          "stage_tr_counts": {
+            "W": 57,
+            "1": 228,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 57,
+            "1": 221,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1680911566340326,
+          "max_fd": 1.9419174,
+          "n_censored": 29,
+          "censored_fraction": 0.0675990675990676,
+          "stage_tr_counts": {
+            "W": 300,
+            "1": 99,
+            "2": 29
+          },
+          "stage_clean_tr_counts": {
+            "W": 281,
+            "1": 89,
+            "2": 29
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2286759823490909,
+          "max_fd": 8.32245125,
+          "n_censored": 60,
+          "censored_fraction": 0.13986013986013987,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 368,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.19022700390349648,
+          "max_fd": 2.6341079000000005,
+          "n_censored": 42,
+          "censored_fraction": 0.0979020979020979,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 284,
+            "2": 144
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 247,
+            "2": 139
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 5,
+      "total_valid_trs": {
+        "W": 983,
+        "1": 557,
+        "2": 168
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-13",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.29208519850699294,
+          "max_fd": 1.3922445999999995,
+          "n_censored": 94,
+          "censored_fraction": 0.32867132867132864,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 71,
+            "2": 214
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 48,
+            "2": 143
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1831574103412587,
+          "max_fd": 1.5687245699999997,
+          "n_censored": 24,
+          "censored_fraction": 0.08391608391608392,
+          "stage_tr_counts": {
+            "W": 214,
+            "1": 71,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 200,
+            "1": 61,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.33013592375291373,
+          "max_fd": 3.6987819,
+          "n_censored": 108,
+          "censored_fraction": 0.2517482517482518,
+          "stage_tr_counts": {
+            "W": 400,
+            "1": 28,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 293,
+            "1": 27,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.38912782722610717,
+          "max_fd": 5.0060476,
+          "n_censored": 141,
+          "censored_fraction": 0.32867132867132864,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 288,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 1.0530581166820514,
+          "max_fd": 25.412648,
+          "n_censored": 182,
+          "censored_fraction": 0.42424242424242425,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 247,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": false,
+          "exclusion_reasons": [
+            "Excessive motion: 51.0% volumes censored (threshold: 50%)"
+          ],
+          "n_trs": 429,
+          "mean_fd": 0.7782593403729603,
+          "max_fd": 7.550938649999998,
+          "n_censored": 219,
+          "censored_fraction": 0.5104895104895105,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 210,
+            "1": 0,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 5,
+      "total_valid_trs": {
+        "W": 1028,
+        "1": 136,
+        "2": 143
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-14",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.2893938465104895,
+          "max_fd": 2.2232823,
+          "n_censored": 76,
+          "censored_fraction": 0.26573426573426573,
+          "stage_tr_counts": {
+            "W": 183,
+            "1": 102,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 135,
+            "1": 74,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.3586992398461538,
+          "max_fd": 1.950043675,
+          "n_censored": 112,
+          "censored_fraction": 0.3916083916083916,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 270,
+            "2": 15
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 160,
+            "2": 13
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.3650299375517948,
+          "max_fd": 5.820630489999999,
+          "n_censored": 154,
+          "censored_fraction": 0.358974358974359,
+          "stage_tr_counts": {
+            "W": 57,
+            "1": 371,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 32,
+            "1": 242,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.38166227251748247,
+          "max_fd": 3.3094132499999995,
+          "n_censored": 187,
+          "censored_fraction": 0.4358974358974359,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 371,
+            "2": 57
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 224,
+            "2": 18
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2677489597296037,
+          "max_fd": 1.8516874,
+          "n_censored": 101,
+          "censored_fraction": 0.23543123543123542,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 342,
+            "2": 86
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 265,
+            "2": 62
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.45911540848391613,
+          "max_fd": 6.941052849999999,
+          "n_censored": 163,
+          "censored_fraction": 0.37995337995337997,
+          "stage_tr_counts": {
+            "W": 14,
+            "1": 343,
+            "2": 71
+          },
+          "stage_clean_tr_counts": {
+            "W": 7,
+            "1": 216,
+            "2": 43
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.3970498914358974,
+          "max_fd": 5.4335445,
+          "n_censored": 138,
+          "censored_fraction": 0.32167832167832167,
+          "stage_tr_counts": {
+            "W": 142,
+            "1": 286,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 94,
+            "1": 196,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.4382199718508158,
+          "max_fd": 4.356017,
+          "n_censored": 163,
+          "censored_fraction": 0.37995337995337997,
+          "stage_tr_counts": {
+            "W": 14,
+            "1": 372,
+            "2": 42
+          },
+          "stage_clean_tr_counts": {
+            "W": 2,
+            "1": 241,
+            "2": 22
+          },
+          "insufficient_stages": [
+            "W",
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.40291404654965035,
+          "max_fd": 4.700996,
+          "n_censored": 151,
+          "censored_fraction": 0.351981351981352,
+          "stage_tr_counts": {
+            "W": 42,
+            "1": 358,
+            "2": 28
+          },
+          "stage_clean_tr_counts": {
+            "W": 26,
+            "1": 238,
+            "2": 13
+          },
+          "insufficient_stages": [
+            "W",
+            "2"
+          ]
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 9,
+      "total_valid_trs": {
+        "W": 296,
+        "1": 1856,
+        "2": 171
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-15",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1697842587517482,
+          "max_fd": 1.3565353,
+          "n_censored": 20,
+          "censored_fraction": 0.06993006993006994,
+          "stage_tr_counts": {
+            "W": 42,
+            "1": 158,
+            "2": 85
+          },
+          "stage_clean_tr_counts": {
+            "W": 42,
+            "1": 151,
+            "2": 73
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1806874610740909,
+          "max_fd": 1.6579703,
+          "n_censored": 17,
+          "censored_fraction": 0.05944055944055944,
+          "stage_tr_counts": {
+            "W": 100,
+            "1": 185,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 97,
+            "1": 171,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.3272216896615384,
+          "max_fd": 4.9288556,
+          "n_censored": 198,
+          "censored_fraction": 0.46153846153846156,
+          "stage_tr_counts": {
+            "W": 326,
+            "1": 102,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 172,
+            "1": 59,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.29323007867132866,
+          "max_fd": 2.17634,
+          "n_censored": 170,
+          "censored_fraction": 0.3962703962703963,
+          "stage_tr_counts": {
+            "W": 242,
+            "1": 186,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 122,
+            "1": 136,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.20388986667832162,
+          "max_fd": 3.0446586,
+          "n_censored": 54,
+          "censored_fraction": 0.1258741258741259,
+          "stage_tr_counts": {
+            "W": 57,
+            "1": 357,
+            "2": 14
+          },
+          "stage_clean_tr_counts": {
+            "W": 44,
+            "1": 317,
+            "2": 13
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.16161953737226106,
+          "max_fd": 0.770765476,
+          "n_censored": 21,
+          "censored_fraction": 0.04895104895104895,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 100,
+            "2": 328
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 94,
+            "2": 313
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.19549485209836828,
+          "max_fd": 1.2085635,
+          "n_censored": 47,
+          "censored_fraction": 0.10955710955710955,
+          "stage_tr_counts": {
+            "W": 15,
+            "1": 128,
+            "2": 285
+          },
+          "stage_clean_tr_counts": {
+            "W": 12,
+            "1": 121,
+            "2": 248
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.19696196518414913,
+          "max_fd": 4.01579636,
+          "n_censored": 42,
+          "censored_fraction": 0.0979020979020979,
+          "stage_tr_counts": {
+            "W": 144,
+            "1": 156,
+            "2": 128
+          },
+          "stage_clean_tr_counts": {
+            "W": 109,
+            "1": 149,
+            "2": 128
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 598,
+        "1": 1198,
+        "2": 775
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-16",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": false,
+          "exclusion_reasons": [
+            "Excessive motion: 51.0% volumes censored (threshold: 50%)"
+          ],
+          "n_trs": 286,
+          "mean_fd": 0.4410943770384615,
+          "max_fd": 8.590231,
+          "n_censored": 146,
+          "censored_fraction": 0.5104895104895105,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 43,
+            "2": 242
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 14,
+            "2": 126
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.2389627783146853,
+          "max_fd": 1.00212846,
+          "n_censored": 73,
+          "censored_fraction": 0.25524475524475526,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 271,
+            "2": 14
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 207,
+            "2": 5
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.45845023059207457,
+          "max_fd": 8.8720157,
+          "n_censored": 187,
+          "censored_fraction": 0.4358974358974359,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 271,
+            "2": 157
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 148,
+            "2": 93
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.25637472827039626,
+          "max_fd": 3.6384955,
+          "n_censored": 109,
+          "censored_fraction": 0.2540792540792541,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 229,
+            "2": 199
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 181,
+            "2": 138
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.24489516068671327,
+          "max_fd": 0.9543508,
+          "n_censored": 125,
+          "censored_fraction": 0.2913752913752914,
+          "stage_tr_counts": {
+            "W": 14,
+            "1": 115,
+            "2": 299
+          },
+          "stage_clean_tr_counts": {
+            "W": 13,
+            "1": 88,
+            "2": 202
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.24185927405501162,
+          "max_fd": 1.06226775,
+          "n_censored": 106,
+          "censored_fraction": 0.24708624708624707,
+          "stage_tr_counts": {
+            "W": 42,
+            "1": 157,
+            "2": 229
+          },
+          "stage_clean_tr_counts": {
+            "W": 28,
+            "1": 122,
+            "2": 172
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2784493988811189,
+          "max_fd": 2.2007566,
+          "n_censored": 144,
+          "censored_fraction": 0.3356643356643357,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 143,
+            "2": 285
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 120,
+            "2": 164
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2908352857992074,
+          "max_fd": 1.26261664,
+          "n_censored": 173,
+          "censored_fraction": 0.40326340326340326,
+          "stage_tr_counts": {
+            "W": 14,
+            "1": 28,
+            "2": 386
+          },
+          "stage_clean_tr_counts": {
+            "W": 4,
+            "1": 20,
+            "2": 231
+          },
+          "insufficient_stages": [
+            "W",
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.3555447123862471,
+          "max_fd": 4.1674512,
+          "n_censored": 206,
+          "censored_fraction": 0.4801864801864802,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 0,
+            "2": 399
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 0,
+            "2": 206
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-8",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.28418357665065264,
+          "max_fd": 1.18527555,
+          "n_censored": 167,
+          "censored_fraction": 0.38927738927738925,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 14,
+            "2": 400
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 14,
+            "2": 235
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 9,
+      "total_valid_trs": {
+        "W": 45,
+        "1": 900,
+        "2": 1446
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-17",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.2708878973405594,
+          "max_fd": 2.2858137022,
+          "n_censored": 96,
+          "censored_fraction": 0.3356643356643357,
+          "stage_tr_counts": {
+            "W": 200,
+            "1": 85,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 132,
+            "1": 57,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.2058152126,
+          "max_fd": 1.4730025,
+          "n_censored": 18,
+          "censored_fraction": 0.06293706293706294,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 268,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.25764976133846146,
+          "max_fd": 3.36032288,
+          "n_censored": 60,
+          "censored_fraction": 0.13986013986013987,
+          "stage_tr_counts": {
+            "W": 371,
+            "1": 57,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 317,
+            "1": 51,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2608295966377622,
+          "max_fd": 4.0565891,
+          "n_censored": 78,
+          "censored_fraction": 0.18181818181818182,
+          "stage_tr_counts": {
+            "W": 413,
+            "1": 15,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 340,
+            "1": 10,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2875964478135198,
+          "max_fd": 3.7298045,
+          "n_censored": 54,
+          "censored_fraction": 0.1258741258741259,
+          "stage_tr_counts": {
+            "W": 114,
+            "1": 314,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 94,
+            "1": 280,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.41619989383030304,
+          "max_fd": 6.598707699999999,
+          "n_censored": 125,
+          "censored_fraction": 0.2913752913752914,
+          "stage_tr_counts": {
+            "W": 58,
+            "1": 214,
+            "2": 156
+          },
+          "stage_clean_tr_counts": {
+            "W": 28,
+            "1": 148,
+            "2": 127
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.39377046101025637,
+          "max_fd": 5.313245,
+          "n_censored": 103,
+          "censored_fraction": 0.2400932400932401,
+          "stage_tr_counts": {
+            "W": 227,
+            "1": 201,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 150,
+            "1": 175,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.3429554829261072,
+          "max_fd": 4.74459173,
+          "n_censored": 78,
+          "censored_fraction": 0.18181818181818182,
+          "stage_tr_counts": {
+            "W": 356,
+            "1": 58,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 300,
+            "1": 46,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.5612480241585082,
+          "max_fd": 8.951707999999998,
+          "n_censored": 134,
+          "censored_fraction": 0.3123543123543124,
+          "stage_tr_counts": {
+            "W": 315,
+            "1": 85,
+            "2": 28
+          },
+          "stage_clean_tr_counts": {
+            "W": 214,
+            "1": 60,
+            "2": 20
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 9,
+      "total_valid_trs": {
+        "W": 1843,
+        "1": 827,
+        "2": 147
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-18",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.138723607312937,
+          "max_fd": 1.4220459999999997,
+          "n_censored": 24,
+          "censored_fraction": 0.08391608391608392,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 257,
+            "2": 28
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 241,
+            "2": 20
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.10481365286713283,
+          "max_fd": 0.8005871599999999,
+          "n_censored": 19,
+          "censored_fraction": 0.06643356643356643,
+          "stage_tr_counts": {
+            "W": 71,
+            "1": 214,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 63,
+            "1": 203,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2931760732634032,
+          "max_fd": 1.93254505,
+          "n_censored": 140,
+          "censored_fraction": 0.32634032634032634,
+          "stage_tr_counts": {
+            "W": 57,
+            "1": 371,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 45,
+            "1": 243,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.20419919605034964,
+          "max_fd": 4.5101801,
+          "n_censored": 55,
+          "censored_fraction": 0.1282051282051282,
+          "stage_tr_counts": {
+            "W": 229,
+            "1": 199,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 193,
+            "1": 181,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.23723875259855473,
+          "max_fd": 11.49821015,
+          "n_censored": 63,
+          "censored_fraction": 0.14685314685314685,
+          "stage_tr_counts": {
+            "W": 199,
+            "1": 229,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 150,
+            "1": 215,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.24512945691794868,
+          "max_fd": 3.6822011,
+          "n_censored": 68,
+          "censored_fraction": 0.1585081585081585,
+          "stage_tr_counts": {
+            "W": 343,
+            "1": 85,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 276,
+            "1": 84,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.20097963799347315,
+          "max_fd": 3.5809343,
+          "n_censored": 59,
+          "censored_fraction": 0.13752913752913754,
+          "stage_tr_counts": {
+            "W": 157,
+            "1": 242,
+            "2": 29
+          },
+          "stage_clean_tr_counts": {
+            "W": 120,
+            "1": 222,
+            "2": 27
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 7,
+      "total_valid_trs": {
+        "W": 847,
+        "1": 1389,
+        "2": 47
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-19",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.2904898108804196,
+          "max_fd": 1.2591789,
+          "n_censored": 111,
+          "censored_fraction": 0.3881118881118881,
+          "stage_tr_counts": {
+            "W": 142,
+            "1": 143,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 106,
+            "1": 69,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.24155388429090907,
+          "max_fd": 5.6741995,
+          "n_censored": 43,
+          "censored_fraction": 0.15034965034965034,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 242,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.24019928563216783,
+          "max_fd": 1.279016,
+          "n_censored": 76,
+          "censored_fraction": 0.17715617715617715,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 273,
+            "2": 155
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 230,
+            "2": 122
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2743598624160839,
+          "max_fd": 2.86822825,
+          "n_censored": 102,
+          "censored_fraction": 0.23776223776223776,
+          "stage_tr_counts": {
+            "W": 44,
+            "1": 255,
+            "2": 129
+          },
+          "stage_clean_tr_counts": {
+            "W": 29,
+            "1": 194,
+            "2": 104
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.26669870793652684,
+          "max_fd": 2.8101113,
+          "n_censored": 100,
+          "censored_fraction": 0.2331002331002331,
+          "stage_tr_counts": {
+            "W": 43,
+            "1": 172,
+            "2": 213
+          },
+          "stage_clean_tr_counts": {
+            "W": 35,
+            "1": 143,
+            "2": 151
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.41794292116550114,
+          "max_fd": 4.899744,
+          "n_censored": 171,
+          "censored_fraction": 0.3986013986013986,
+          "stage_tr_counts": {
+            "W": 15,
+            "1": 126,
+            "2": 287
+          },
+          "stage_clean_tr_counts": {
+            "W": 10,
+            "1": 79,
+            "2": 169
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.4892757102610722,
+          "max_fd": 8.492701499999999,
+          "n_censored": 193,
+          "censored_fraction": 0.44988344988344986,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 129,
+            "2": 299
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 69,
+            "2": 166
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 7,
+      "total_valid_trs": {
+        "W": 422,
+        "1": 784,
+        "2": 712
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-20",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1099362326510489,
+          "max_fd": 0.513823115,
+          "n_censored": 6,
+          "censored_fraction": 0.02097902097902098,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 279,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.12368551484615382,
+          "max_fd": 1.69391097,
+          "n_censored": 12,
+          "censored_fraction": 0.04195804195804196,
+          "stage_tr_counts": {
+            "W": 213,
+            "1": 72,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 201,
+            "1": 72,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1567050809324009,
+          "max_fd": 1.7101739,
+          "n_censored": 21,
+          "censored_fraction": 0.04895104895104895,
+          "stage_tr_counts": {
+            "W": 342,
+            "1": 86,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 326,
+            "1": 81,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.156639530039627,
+          "max_fd": 2.47679865,
+          "n_censored": 26,
+          "censored_fraction": 0.06060606060606061,
+          "stage_tr_counts": {
+            "W": 85,
+            "1": 343,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 76,
+            "1": 326,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.16692923813074587,
+          "max_fd": 1.24413,
+          "n_censored": 29,
+          "censored_fraction": 0.0675990675990676,
+          "stage_tr_counts": {
+            "W": 242,
+            "1": 186,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 217,
+            "1": 182,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.25513036640116543,
+          "max_fd": 5.01437555,
+          "n_censored": 58,
+          "censored_fraction": 0.1351981351981352,
+          "stage_tr_counts": {
+            "W": 413,
+            "1": 15,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 355,
+            "1": 15,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.32581762021282046,
+          "max_fd": 3.70380564,
+          "n_censored": 98,
+          "censored_fraction": 0.22843822843822845,
+          "stage_tr_counts": {
+            "W": 158,
+            "1": 270,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 126,
+            "1": 205,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 7,
+      "total_valid_trs": {
+        "W": 1580,
+        "1": 881,
+        "2": 0
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1"
+      ]
+    },
+    {
+      "subject": "sub-21",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.20556461241608387,
+          "max_fd": 0.8660913,
+          "n_censored": 38,
+          "censored_fraction": 0.13286713286713286,
+          "stage_tr_counts": {
+            "W": 127,
+            "1": 158,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 102,
+            "1": 146,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.24668367964685312,
+          "max_fd": 1.49881958,
+          "n_censored": 54,
+          "censored_fraction": 0.1888111888111888,
+          "stage_tr_counts": {
+            "W": 214,
+            "1": 71,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 171,
+            "1": 61,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 2,
+      "total_valid_trs": {
+        "W": 273,
+        "1": 207,
+        "2": 0
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1"
+      ]
+    },
+    {
+      "subject": "sub-22",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.12183080741538457,
+          "max_fd": 0.49603908,
+          "n_censored": 2,
+          "censored_fraction": 0.006993006993006993,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 283,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1328369705146853,
+          "max_fd": 0.5678874500000001,
+          "n_censored": 18,
+          "censored_fraction": 0.06293706293706294,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 267,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.12408155284104642,
+          "max_fd": 0.67787105,
+          "n_censored": 17,
+          "censored_fraction": 0.039627039627039624,
+          "stage_tr_counts": {
+            "W": 314,
+            "1": 114,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 299,
+            "1": 112,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.14029505298093237,
+          "max_fd": 1.153253305,
+          "n_censored": 32,
+          "censored_fraction": 0.07459207459207459,
+          "stage_tr_counts": {
+            "W": 200,
+            "1": 214,
+            "2": 14
+          },
+          "stage_clean_tr_counts": {
+            "W": 170,
+            "1": 212,
+            "2": 14
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.15692719160815852,
+          "max_fd": 1.16850415,
+          "n_censored": 49,
+          "censored_fraction": 0.11421911421911422,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 428,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 379,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1660845587852214,
+          "max_fd": 3.1272371649999995,
+          "n_censored": 37,
+          "censored_fraction": 0.08624708624708624,
+          "stage_tr_counts": {
+            "W": 214,
+            "1": 200,
+            "2": 14
+          },
+          "stage_clean_tr_counts": {
+            "W": 187,
+            "1": 190,
+            "2": 14
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.12345538667650348,
+          "max_fd": 0.93690576,
+          "n_censored": 11,
+          "censored_fraction": 0.02564102564102564,
+          "stage_tr_counts": {
+            "W": 57,
+            "1": 200,
+            "2": 171
+          },
+          "stage_clean_tr_counts": {
+            "W": 53,
+            "1": 194,
+            "2": 170
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.12142723745244753,
+          "max_fd": 0.70535525,
+          "n_censored": 17,
+          "censored_fraction": 0.039627039627039624,
+          "stage_tr_counts": {
+            "W": 400,
+            "1": 28,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 383,
+            "1": 28,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1418857510277389,
+          "max_fd": 1.4040777999999998,
+          "n_censored": 25,
+          "censored_fraction": 0.05827505827505827,
+          "stage_tr_counts": {
+            "W": 30,
+            "1": 398,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 28,
+            "1": 375,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-8",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.14478637676177153,
+          "max_fd": 0.7431444099999999,
+          "n_censored": 36,
+          "censored_fraction": 0.08391608391608392,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 392,
+            "1": 0,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 10,
+      "total_valid_trs": {
+        "W": 2062,
+        "1": 1490,
+        "2": 198
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-23",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.13372391523986013,
+          "max_fd": 0.4811889,
+          "n_censored": 5,
+          "censored_fraction": 0.017482517482517484,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 280,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.16963750846783215,
+          "max_fd": 2.24966597,
+          "n_censored": 26,
+          "censored_fraction": 0.09090909090909091,
+          "stage_tr_counts": {
+            "W": 271,
+            "1": 14,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 245,
+            "1": 14,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2813486615617715,
+          "max_fd": 4.9035475,
+          "n_censored": 61,
+          "censored_fraction": 0.14219114219114218,
+          "stage_tr_counts": {
+            "W": 142,
+            "1": 271,
+            "2": 15
+          },
+          "stage_clean_tr_counts": {
+            "W": 100,
+            "1": 258,
+            "2": 9
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.12872193374498833,
+          "max_fd": 0.2565234,
+          "n_censored": 0,
+          "censored_fraction": 0.0,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 85,
+            "2": 143
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 85,
+            "2": 143
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.11875688059858552,
+          "max_fd": 0.239073905,
+          "n_censored": 0,
+          "censored_fraction": 0.0,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.119953991039627,
+          "max_fd": 2.1002173,
+          "n_censored": 5,
+          "censored_fraction": 0.011655011655011656,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 28,
+            "2": 400
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 24,
+            "2": 399
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1541459886391608,
+          "max_fd": 1.5447159,
+          "n_censored": 10,
+          "censored_fraction": 0.023310023310023312,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 270,
+            "2": 158
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 260,
+            "2": 158
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.12785046814918413,
+          "max_fd": 1.689277,
+          "n_censored": 9,
+          "censored_fraction": 0.02097902097902098,
+          "stage_tr_counts": {
+            "W": 372,
+            "1": 56,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 363,
+            "1": 56,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1445954798626107,
+          "max_fd": 1.2344709499999995,
+          "n_censored": 7,
+          "censored_fraction": 0.016317016317016316,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 87,
+            "2": 341
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 81,
+            "2": 340
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-8",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.13915165465501161,
+          "max_fd": 2.0465514,
+          "n_censored": 13,
+          "censored_fraction": 0.030303030303030304,
+          "stage_tr_counts": {
+            "W": 28,
+            "1": 114,
+            "2": 286
+          },
+          "stage_clean_tr_counts": {
+            "W": 18,
+            "1": 111,
+            "2": 286
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 10,
+      "total_valid_trs": {
+        "W": 1006,
+        "1": 889,
+        "2": 1335
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-24",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.09448149091608388,
+          "max_fd": 0.36161657,
+          "n_censored": 2,
+          "censored_fraction": 0.006993006993006993,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 283,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.11805278482867129,
+          "max_fd": 1.23246955,
+          "n_censored": 8,
+          "censored_fraction": 0.027972027972027972,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 114,
+            "2": 171
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 113,
+            "2": 164
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1189060982237762,
+          "max_fd": 3.6993831,
+          "n_censored": 8,
+          "censored_fraction": 0.018648018648018648,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 420,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.12037847812796522,
+          "max_fd": 1.05914364,
+          "n_censored": 16,
+          "censored_fraction": 0.037296037296037296,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 412,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1092466717179487,
+          "max_fd": 0.99413625,
+          "n_censored": 9,
+          "censored_fraction": 0.02097902097902098,
+          "stage_tr_counts": {
+            "W": 315,
+            "1": 113,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 309,
+            "1": 110,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.18435019946153844,
+          "max_fd": 7.412116099999999,
+          "n_censored": 31,
+          "censored_fraction": 0.07226107226107226,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 71,
+            "2": 357
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 65,
+            "2": 332
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.18737462646713282,
+          "max_fd": 2.7006363,
+          "n_censored": 37,
+          "censored_fraction": 0.08624708624708624,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 241,
+            "2": 187
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 218,
+            "2": 173
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.351266286039627,
+          "max_fd": 7.8192436,
+          "n_censored": 84,
+          "censored_fraction": 0.1958041958041958,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 328,
+            "2": 100
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 249,
+            "2": 96
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 1424,
+        "1": 755,
+        "2": 765
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-25",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1073619922518984,
+          "max_fd": 0.4904790028,
+          "n_censored": 6,
+          "censored_fraction": 0.02097902097902098,
+          "stage_tr_counts": {
+            "W": 14,
+            "1": 271,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 14,
+            "1": 265,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.10924231513650345,
+          "max_fd": 0.9897021178,
+          "n_censored": 4,
+          "censored_fraction": 0.013986013986013986,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 29,
+            "2": 256
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 29,
+            "2": 252
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.09544552013053609,
+          "max_fd": 1.1712496,
+          "n_censored": 12,
+          "censored_fraction": 0.027972027972027972,
+          "stage_tr_counts": {
+            "W": 183,
+            "1": 245,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 174,
+            "1": 242,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.08769192669827501,
+          "max_fd": 1.35995415,
+          "n_censored": 10,
+          "censored_fraction": 0.023310023310023312,
+          "stage_tr_counts": {
+            "W": 85,
+            "1": 343,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 77,
+            "1": 342,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.0950860146375291,
+          "max_fd": 0.8164584499999998,
+          "n_censored": 8,
+          "censored_fraction": 0.018648018648018648,
+          "stage_tr_counts": {
+            "W": 57,
+            "1": 371,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 55,
+            "1": 365,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.08375143287874123,
+          "max_fd": 0.6455043399999999,
+          "n_censored": 3,
+          "censored_fraction": 0.006993006993006993,
+          "stage_tr_counts": {
+            "W": 128,
+            "1": 300,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 126,
+            "1": 299,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.07978711456706292,
+          "max_fd": 0.6250722999999999,
+          "n_censored": 10,
+          "censored_fraction": 0.023310023310023312,
+          "stage_tr_counts": {
+            "W": 128,
+            "1": 300,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 125,
+            "1": 293,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.15201067262261067,
+          "max_fd": 1.1936255,
+          "n_censored": 49,
+          "censored_fraction": 0.11421911421911422,
+          "stage_tr_counts": {
+            "W": 371,
+            "1": 57,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 327,
+            "1": 52,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 898,
+        "1": 1887,
+        "2": 252
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-26",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.13294483234895105,
+          "max_fd": 1.12217038,
+          "n_censored": 3,
+          "censored_fraction": 0.01048951048951049,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 282,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.17878234366965035,
+          "max_fd": 0.7513520999999999,
+          "n_censored": 30,
+          "censored_fraction": 0.1048951048951049,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 256,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.13444710204593005,
+          "max_fd": 0.7448900400000001,
+          "n_censored": 11,
+          "censored_fraction": 0.02564102564102564,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 417,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.15451606133899767,
+          "max_fd": 1.0806849,
+          "n_censored": 20,
+          "censored_fraction": 0.046620046620046623,
+          "stage_tr_counts": {
+            "W": 400,
+            "1": 28,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 381,
+            "1": 27,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.3299704480736596,
+          "max_fd": 2.5320159,
+          "n_censored": 138,
+          "censored_fraction": 0.32167832167832167,
+          "stage_tr_counts": {
+            "W": 300,
+            "1": 128,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 233,
+            "1": 57,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.23922743571328667,
+          "max_fd": 3.08947042,
+          "n_censored": 66,
+          "censored_fraction": 0.15384615384615385,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 362,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.17469862815850815,
+          "max_fd": 1.4221654600000002,
+          "n_censored": 47,
+          "censored_fraction": 0.10955710955710955,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 381,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.398754284032634,
+          "max_fd": 3.03276205,
+          "n_censored": 173,
+          "censored_fraction": 0.40326340326340326,
+          "stage_tr_counts": {
+            "W": 414,
+            "1": 14,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 249,
+            "1": 6,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 2561,
+        "1": 90,
+        "2": 0
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1"
+      ]
+    },
+    {
+      "subject": "sub-27",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.19902189200454543,
+          "max_fd": 3.60621747,
+          "n_censored": 24,
+          "censored_fraction": 0.08391608391608392,
+          "stage_tr_counts": {
+            "W": 14,
+            "1": 156,
+            "2": 115
+          },
+          "stage_clean_tr_counts": {
+            "W": 14,
+            "1": 140,
+            "2": 107
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.23011504008146852,
+          "max_fd": 2.4425371,
+          "n_censored": 35,
+          "censored_fraction": 0.12237762237762238,
+          "stage_tr_counts": {
+            "W": 142,
+            "1": 114,
+            "2": 29
+          },
+          "stage_clean_tr_counts": {
+            "W": 129,
+            "1": 98,
+            "2": 24
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.250183336006993,
+          "max_fd": 4.7924307,
+          "n_censored": 43,
+          "censored_fraction": 0.10023310023310024,
+          "stage_tr_counts": {
+            "W": 229,
+            "1": 114,
+            "2": 85
+          },
+          "stage_clean_tr_counts": {
+            "W": 205,
+            "1": 102,
+            "2": 78
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.28423202537552444,
+          "max_fd": 4.6099505,
+          "n_censored": 58,
+          "censored_fraction": 0.1351981351981352,
+          "stage_tr_counts": {
+            "W": 86,
+            "1": 100,
+            "2": 242
+          },
+          "stage_clean_tr_counts": {
+            "W": 42,
+            "1": 91,
+            "2": 237
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2070171800356643,
+          "max_fd": 0.53843305,
+          "n_censored": 39,
+          "censored_fraction": 0.09090909090909091,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 0,
+            "2": 299
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 0,
+            "2": 269
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.361741382076923,
+          "max_fd": 4.534532,
+          "n_censored": 117,
+          "censored_fraction": 0.2727272727272727,
+          "stage_tr_counts": {
+            "W": 170,
+            "1": 187,
+            "2": 71
+          },
+          "stage_clean_tr_counts": {
+            "W": 88,
+            "1": 163,
+            "2": 60
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.5214732656188811,
+          "max_fd": 6.8537305,
+          "n_censored": 149,
+          "censored_fraction": 0.3473193473193473,
+          "stage_tr_counts": {
+            "W": 199,
+            "1": 172,
+            "2": 43
+          },
+          "stage_clean_tr_counts": {
+            "W": 122,
+            "1": 117,
+            "2": 30
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.38451261950582755,
+          "max_fd": 9.5077515,
+          "n_censored": 73,
+          "censored_fraction": 0.17016317016317017,
+          "stage_tr_counts": {
+            "W": 128,
+            "1": 128,
+            "2": 172
+          },
+          "stage_clean_tr_counts": {
+            "W": 68,
+            "1": 121,
+            "2": 167
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.6782232368811189,
+          "max_fd": 13.521864,
+          "n_censored": 139,
+          "censored_fraction": 0.32400932400932403,
+          "stage_tr_counts": {
+            "W": 199,
+            "1": 157,
+            "2": 72
+          },
+          "stage_clean_tr_counts": {
+            "W": 93,
+            "1": 134,
+            "2": 63
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 9,
+      "total_valid_trs": {
+        "W": 761,
+        "1": 966,
+        "2": 1035
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-28",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.24857005515244748,
+          "max_fd": 0.64666367,
+          "n_censored": 96,
+          "censored_fraction": 0.3356643356643357,
+          "stage_tr_counts": {
+            "W": 85,
+            "1": 71,
+            "2": 129
+          },
+          "stage_clean_tr_counts": {
+            "W": 67,
+            "1": 38,
+            "2": 84
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1032967083207692,
+          "max_fd": 0.35345454,
+          "n_censored": 2,
+          "censored_fraction": 0.006993006993006993,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 283,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1226507734009324,
+          "max_fd": 0.46789417,
+          "n_censored": 5,
+          "censored_fraction": 0.011655011655011656,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 423,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.13247819206993003,
+          "max_fd": 0.45402685,
+          "n_censored": 6,
+          "censored_fraction": 0.013986013986013986,
+          "stage_tr_counts": {
+            "W": 413,
+            "1": 15,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 407,
+            "1": 15,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.13427338064937058,
+          "max_fd": 0.8408543699999999,
+          "n_censored": 9,
+          "censored_fraction": 0.02097902097902098,
+          "stage_tr_counts": {
+            "W": 85,
+            "1": 71,
+            "2": 272
+          },
+          "stage_clean_tr_counts": {
+            "W": 85,
+            "1": 70,
+            "2": 264
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.16221693024149184,
+          "max_fd": 0.872169112,
+          "n_censored": 19,
+          "censored_fraction": 0.04428904428904429,
+          "stage_tr_counts": {
+            "W": 43,
+            "1": 100,
+            "2": 285
+          },
+          "stage_clean_tr_counts": {
+            "W": 40,
+            "1": 97,
+            "2": 272
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.16360955543776223,
+          "max_fd": 1.25810867,
+          "n_censored": 18,
+          "censored_fraction": 0.04195804195804196,
+          "stage_tr_counts": {
+            "W": 71,
+            "1": 29,
+            "2": 328
+          },
+          "stage_clean_tr_counts": {
+            "W": 67,
+            "1": 26,
+            "2": 317
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.12550062476372956,
+          "max_fd": 0.490157015,
+          "n_censored": 14,
+          "censored_fraction": 0.03263403263403263,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 414,
+            "1": 0,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 1786,
+        "1": 246,
+        "2": 937
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-29",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.11195386217832166,
+          "max_fd": 0.97326419,
+          "n_censored": 2,
+          "censored_fraction": 0.006993006993006993,
+          "stage_tr_counts": {
+            "W": 85,
+            "1": 85,
+            "2": 115
+          },
+          "stage_clean_tr_counts": {
+            "W": 84,
+            "1": 85,
+            "2": 114
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1289184144083916,
+          "max_fd": 0.6388477969999999,
+          "n_censored": 4,
+          "censored_fraction": 0.013986013986013986,
+          "stage_tr_counts": {
+            "W": 242,
+            "1": 43,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 238,
+            "1": 43,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.11245095995662002,
+          "max_fd": 0.47353121,
+          "n_censored": 3,
+          "censored_fraction": 0.006993006993006993,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 425,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.11075659908685313,
+          "max_fd": 0.4246840499999999,
+          "n_censored": 1,
+          "censored_fraction": 0.002331002331002331,
+          "stage_tr_counts": {
+            "W": 399,
+            "1": 29,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 398,
+            "1": 29,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.10277523855568295,
+          "max_fd": 0.37774535,
+          "n_censored": 3,
+          "censored_fraction": 0.006993006993006993,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 425,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.13177217369790206,
+          "max_fd": 2.1424405,
+          "n_censored": 15,
+          "censored_fraction": 0.03496503496503497,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 413,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.15858959035664336,
+          "max_fd": 2.2275784,
+          "n_censored": 31,
+          "censored_fraction": 0.07226107226107226,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 397,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2682938021564102,
+          "max_fd": 3.48755364,
+          "n_censored": 69,
+          "censored_fraction": 0.16083916083916083,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 359,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1426760379235431,
+          "max_fd": 2.58232445,
+          "n_censored": 18,
+          "censored_fraction": 0.04195804195804196,
+          "stage_tr_counts": {
+            "W": 400,
+            "1": 28,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 384,
+            "1": 26,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 9,
+      "total_valid_trs": {
+        "W": 3123,
+        "1": 183,
+        "2": 114
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-30",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1358920204266722,
+          "max_fd": 0.3085032525,
+          "n_censored": 2,
+          "censored_fraction": 0.006993006993006993,
+          "stage_tr_counts": {
+            "W": 172,
+            "1": 113,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 171,
+            "1": 112,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.15571872023496502,
+          "max_fd": 0.4596208,
+          "n_censored": 1,
+          "censored_fraction": 0.0034965034965034965,
+          "stage_tr_counts": {
+            "W": 171,
+            "1": 114,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 171,
+            "1": 113,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.16347723233333328,
+          "max_fd": 0.51643933,
+          "n_censored": 19,
+          "censored_fraction": 0.04428904428904429,
+          "stage_tr_counts": {
+            "W": 85,
+            "1": 343,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 80,
+            "1": 329,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.21274418156363634,
+          "max_fd": 1.1792741999999998,
+          "n_censored": 62,
+          "censored_fraction": 0.1445221445221445,
+          "stage_tr_counts": {
+            "W": 100,
+            "1": 143,
+            "2": 185
+          },
+          "stage_clean_tr_counts": {
+            "W": 91,
+            "1": 130,
+            "2": 145
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.19725013209254078,
+          "max_fd": 2.5705393999999995,
+          "n_censored": 28,
+          "censored_fraction": 0.06526806526806526,
+          "stage_tr_counts": {
+            "W": 255,
+            "1": 173,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 241,
+            "1": 159,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1758784615334732,
+          "max_fd": 0.869673515,
+          "n_censored": 24,
+          "censored_fraction": 0.055944055944055944,
+          "stage_tr_counts": {
+            "W": 414,
+            "1": 14,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 390,
+            "1": 14,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2734332117561772,
+          "max_fd": 5.89230163,
+          "n_censored": 76,
+          "censored_fraction": 0.17715617715617715,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 353,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.31839847411748246,
+          "max_fd": 4.2680307,
+          "n_censored": 113,
+          "censored_fraction": 0.2634032634032634,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 315,
+            "2": 113
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 232,
+            "2": 84
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 1497,
+        "1": 1089,
+        "2": 229
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-31",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.3006043087202797,
+          "max_fd": 2.9544299,
+          "n_censored": 95,
+          "censored_fraction": 0.3321678321678322,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 28,
+            "2": 257
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 27,
+            "2": 164
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.21955698965034962,
+          "max_fd": 1.4984168999999996,
+          "n_censored": 47,
+          "censored_fraction": 0.16433566433566432,
+          "stage_tr_counts": {
+            "W": 85,
+            "1": 129,
+            "2": 71
+          },
+          "stage_clean_tr_counts": {
+            "W": 73,
+            "1": 123,
+            "2": 42
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.32697989139393935,
+          "max_fd": 9.6160445,
+          "n_censored": 110,
+          "censored_fraction": 0.2564102564102564,
+          "stage_tr_counts": {
+            "W": 0,
+            "1": 200,
+            "2": 228
+          },
+          "stage_clean_tr_counts": {
+            "W": 0,
+            "1": 149,
+            "2": 170
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.41639816916969696,
+          "max_fd": 5.2333849,
+          "n_censored": 161,
+          "censored_fraction": 0.3752913752913753,
+          "stage_tr_counts": {
+            "W": 28,
+            "1": 200,
+            "2": 200
+          },
+          "stage_clean_tr_counts": {
+            "W": 11,
+            "1": 112,
+            "2": 145
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.38108768069836824,
+          "max_fd": 7.673628699999998,
+          "n_censored": 90,
+          "censored_fraction": 0.2097902097902098,
+          "stage_tr_counts": {
+            "W": 128,
+            "1": 286,
+            "2": 14
+          },
+          "stage_clean_tr_counts": {
+            "W": 82,
+            "1": 242,
+            "2": 14
+          },
+          "insufficient_stages": [
+            "2"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.642214982899767,
+          "max_fd": 9.035271,
+          "n_censored": 153,
+          "censored_fraction": 0.35664335664335667,
+          "stage_tr_counts": {
+            "W": 14,
+            "1": 213,
+            "2": 201
+          },
+          "stage_clean_tr_counts": {
+            "W": 3,
+            "1": 123,
+            "2": 149
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.6587676633869464,
+          "max_fd": 8.653762500000001,
+          "n_censored": 121,
+          "censored_fraction": 0.28205128205128205,
+          "stage_tr_counts": {
+            "W": 114,
+            "1": 271,
+            "2": 43
+          },
+          "stage_clean_tr_counts": {
+            "W": 56,
+            "1": 214,
+            "2": 37
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [
+            "Missing confounds: ['a_comp_cor_01', 'a_comp_cor_02', 'a_comp_cor_03', 'a_comp_cor_04']..."
+          ],
+          "n_trs": 429,
+          "mean_fd": 1.0369853626480185,
+          "max_fd": 26.4323115,
+          "n_censored": 163,
+          "censored_fraction": 0.37995337995337997,
+          "missing_confounds": [
+            "a_comp_cor_01",
+            "a_comp_cor_02",
+            "a_comp_cor_03",
+            "a_comp_cor_04"
+          ],
+          "stage_tr_counts": {
+            "W": 70,
+            "1": 358,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 17,
+            "1": 249,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "W"
+          ]
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 8,
+      "total_valid_trs": {
+        "W": 242,
+        "1": 1239,
+        "2": 721
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-32",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.1874231384027972,
+          "max_fd": 0.9104000000000002,
+          "n_censored": 33,
+          "censored_fraction": 0.11538461538461539,
+          "stage_tr_counts": {
+            "W": 113,
+            "1": 57,
+            "2": 115
+          },
+          "stage_clean_tr_counts": {
+            "W": 101,
+            "1": 46,
+            "2": 105
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.16324894044755242,
+          "max_fd": 1.654042,
+          "n_censored": 16,
+          "censored_fraction": 0.055944055944055944,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 269,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2336482232494172,
+          "max_fd": 4.5296745,
+          "n_censored": 51,
+          "censored_fraction": 0.11888111888111888,
+          "stage_tr_counts": {
+            "W": 256,
+            "1": 172,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 232,
+            "1": 145,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.14563346303962701,
+          "max_fd": 0.549711405,
+          "n_censored": 8,
+          "censored_fraction": 0.018648018648018648,
+          "stage_tr_counts": {
+            "W": 414,
+            "1": 14,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 406,
+            "1": 14,
+            "2": 0
+          },
+          "insufficient_stages": [
+            "1"
+          ]
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1717647569855478,
+          "max_fd": 0.4680840999999999,
+          "n_censored": 15,
+          "censored_fraction": 0.03496503496503497,
+          "stage_tr_counts": {
+            "W": 115,
+            "1": 113,
+            "2": 200
+          },
+          "stage_clean_tr_counts": {
+            "W": 111,
+            "1": 109,
+            "2": 193
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.25361448997710956,
+          "max_fd": 16.6668488,
+          "n_censored": 32,
+          "censored_fraction": 0.07459207459207459,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 396,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.2906025823892774,
+          "max_fd": 3.557517,
+          "n_censored": 82,
+          "censored_fraction": 0.19114219114219114,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 347,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.18073537525037292,
+          "max_fd": 4.8717589,
+          "n_censored": 14,
+          "censored_fraction": 0.03263403263403263,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 414,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.12469360874592074,
+          "max_fd": 0.531402,
+          "n_censored": 3,
+          "censored_fraction": 0.006993006993006993,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 425,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-8",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.24322598243939395,
+          "max_fd": 4.431923800000001,
+          "n_censored": 42,
+          "censored_fraction": 0.0979020979020979,
+          "stage_tr_counts": {
+            "W": 428,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 387,
+            "1": 0,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 10,
+      "total_valid_trs": {
+        "W": 3088,
+        "1": 314,
+        "2": 298
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "subject": "sub-33",
+      "runs": [
+        {
+          "task": "task-rest",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.11508402964342654,
+          "max_fd": 1.061205145,
+          "n_censored": 8,
+          "censored_fraction": 0.027972027972027972,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 277,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-rest",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 286,
+          "mean_fd": 0.18935562509300696,
+          "max_fd": 3.26148555,
+          "n_censored": 42,
+          "censored_fraction": 0.14685314685314685,
+          "stage_tr_counts": {
+            "W": 285,
+            "1": 0,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 243,
+            "1": 0,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-1",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.09595112877086245,
+          "max_fd": 1.04466403,
+          "n_censored": 14,
+          "censored_fraction": 0.03263403263403263,
+          "stage_tr_counts": {
+            "W": 386,
+            "1": 42,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 372,
+            "1": 42,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-2",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.15333554708065264,
+          "max_fd": 1.84687614,
+          "n_censored": 45,
+          "censored_fraction": 0.1048951048951049,
+          "stage_tr_counts": {
+            "W": 385,
+            "1": 43,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 340,
+            "1": 43,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-3",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.11214686369958039,
+          "max_fd": 1.12341815,
+          "n_censored": 13,
+          "censored_fraction": 0.030303030303030304,
+          "stage_tr_counts": {
+            "W": 185,
+            "1": 143,
+            "2": 100
+          },
+          "stage_clean_tr_counts": {
+            "W": 176,
+            "1": 139,
+            "2": 100
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-4",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.18089973062331002,
+          "max_fd": 1.80723313,
+          "n_censored": 56,
+          "censored_fraction": 0.13053613053613053,
+          "stage_tr_counts": {
+            "W": 357,
+            "1": 71,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 301,
+            "1": 71,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-5",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.1495611986270396,
+          "max_fd": 1.593425455,
+          "n_censored": 48,
+          "censored_fraction": 0.11188811188811189,
+          "stage_tr_counts": {
+            "W": 314,
+            "1": 114,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 266,
+            "1": 114,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-6",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.33966243526303025,
+          "max_fd": 3.1475582000000006,
+          "n_censored": 133,
+          "censored_fraction": 0.31002331002331,
+          "stage_tr_counts": {
+            "W": 328,
+            "1": 100,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 227,
+            "1": 68,
+            "2": 0
+          }
+        },
+        {
+          "task": "task-sleep",
+          "run": "run-7",
+          "included": true,
+          "exclusion_reasons": [],
+          "n_trs": 429,
+          "mean_fd": 0.16845017580419577,
+          "max_fd": 1.9070475,
+          "n_censored": 54,
+          "censored_fraction": 0.1258741258741259,
+          "stage_tr_counts": {
+            "W": 200,
+            "1": 228,
+            "2": 0
+          },
+          "stage_clean_tr_counts": {
+            "W": 151,
+            "1": 224,
+            "2": 0
+          }
+        }
+      ],
+      "included": true,
+      "exclusion_reasons": [],
+      "n_included_runs": 9,
+      "total_valid_trs": {
+        "W": 2353,
+        "1": 701,
+        "2": 100
+      },
+      "stages_with_sufficient_data": [
+        "W",
+        "1",
+        "2"
+      ]
+    }
+  ],
+  "summary": {
+    "total_subjects": 33,
+    "included_subjects": 32,
+    "excluded_subjects": 1,
+    "included_subject_ids": [
+      "sub-01",
+      "sub-02",
+      "sub-03",
+      "sub-04",
+      "sub-05",
+      "sub-06",
+      "sub-07",
+      "sub-09",
+      "sub-10",
+      "sub-11",
+      "sub-12",
+      "sub-13",
+      "sub-14",
+      "sub-15",
+      "sub-16",
+      "sub-17",
+      "sub-18",
+      "sub-19",
+      "sub-20",
+      "sub-21",
+      "sub-22",
+      "sub-23",
+      "sub-24",
+      "sub-25",
+      "sub-26",
+      "sub-27",
+      "sub-28",
+      "sub-29",
+      "sub-30",
+      "sub-31",
+      "sub-32",
+      "sub-33"
+    ],
+    "excluded_subject_ids": [
+      "sub-08"
+    ],
+    "total_valid_trs": {
+      "Wake": 38738,
+      "N1": 25645,
+      "N2": 14169,
+      "Total": 78552
+    }
+  }
+}

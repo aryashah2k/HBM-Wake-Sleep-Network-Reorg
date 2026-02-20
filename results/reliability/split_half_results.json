@@ -1,0 +1,9 @@
+{
+  "mean_split_half_r": 0.9954024994156431,
+  "std_split_half_r": 0.006247263336041033,
+  "median_split_half_r": 0.998041096413498,
+  "n_runs": 239,
+  "ci95_lower": 0.9776938231613601,
+  "ci95_upper": 0.9999960350915965,
+  "interpretation": "Excellent"
+}
