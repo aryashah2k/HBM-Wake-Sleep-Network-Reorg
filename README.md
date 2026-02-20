@@ -55,7 +55,7 @@ Your brain is a network of regions that constantly talk to each other. Some regi
 > [!IMPORTANT]
 > The largest N2 > Wake cluster (16,752 mm³) centers on dorsomedial prefrontal cortex — a key DMN hub. This is consistent with reduced self-referential thought and executive control during sleep.
 
-![Wake > N2](./results/figures/glm_Wake_gt_N2_glass_brain.png.png)
+![Wake > N2](./results/figures/glm_Wake_gt_N2_glass_brain.png)
 
 ### 1.2 Wake > N1 — Transition Differences
 
